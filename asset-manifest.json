@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tekcanon/static/css/main.e886a5d3.css",
+    "main.js": "/tekcanon/static/js/main.76fb690a.js",
+    "index.html": "/tekcanon/index.html",
+    "main.e886a5d3.css.map": "/tekcanon/static/css/main.e886a5d3.css.map",
+    "main.76fb690a.js.map": "/tekcanon/static/js/main.76fb690a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e886a5d3.css",
+    "static/js/main.76fb690a.js"
+  ]
+}
