@@ -1,0 +1,267 @@
+.empowering-section {
+  width: 100%;
+  padding: 60px 0;
+}
+
+.empowering-intro {
+  width: 70%;
+  margin: 0 auto 100px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.empowering-heading {
+  color: #000;
+  font-family: Outfit, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
+
+.empowering-description {
+  color: #000;
+  font-family: Inter, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.empowering-container {
+  max-width: 1168px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.empowering-item {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.empowering-item-left {
+  display: flex;
+  width: 528px;
+  flex-direction: column;
+  gap: 60px;
+  flex-shrink: 0;
+}
+
+.empowering-item-title {
+  color: #000;
+  font-family: Outfit, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+}
+
+.empowering-item-image {
+  width: 100%;
+  height: 387px;
+  object-fit: cover;
+}
+
+.empowering-item-image.bordered {
+  border: 1px solid #000;
+}
+
+.empowering-item-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+  flex: 1;
+}
+
+.empowering-item-description {
+  color: #000;
+  font-family: Inter, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.empowering-button {
+  display: flex;
+  padding: 20px 55px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  border: none;
+  background: #0D5036;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.empowering-button:hover {
+  opacity: 0.9;
+}
+
+.button-text {
+  color: #FFF;
+  text-align: center;
+  font-family: Outfit, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
+.button-arrow {
+  width: 10.286px;
+  height: 10.286px;
+}
+
+@media (max-width: 1200px) {
+  .empowering-intro {
+    width: 80%;
+  }
+
+  .empowering-item {
+    gap: 60px;
+  }
+
+  .empowering-item-left {
+    width: 450px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .empowering-intro {
+    width: 85%;
+    margin: 0 auto 80px;
+  }
+
+  .empowering-heading {
+    font-size: 40px;
+  }
+
+  .empowering-description {
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .empowering-container {
+    gap: 80px;
+  }
+
+  .empowering-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  .empowering-item-left {
+    width: 100%;
+  }
+
+  .empowering-item-right {
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .empowering-item-title {
+    font-size: 32px;
+  }
+
+  .empowering-item-description {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+
+@media (max-width: 768px) {
+  .empowering-intro {
+    width: 90%;
+    margin: 0 auto 60px;
+  }
+
+  .empowering-heading {
+    font-size: 32px;
+  }
+
+  .empowering-description {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .empowering-container {
+    gap: 60px;
+  }
+
+  .empowering-item {
+    gap: 30px;
+  }
+
+  .empowering-item-title {
+    font-size: 28px;
+  }
+
+  .empowering-item-image {
+    height: 300px;
+  }
+
+  .empowering-item-description {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .empowering-intro {
+    width: 95%;
+    margin: 0 auto 40px;
+  }
+
+  .empowering-heading {
+    font-size: 28px;
+  }
+
+  .empowering-description {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .empowering-container {
+    gap: 50px;
+  }
+
+  .empowering-item {
+    gap: 25px;
+  }
+
+  .empowering-item-left {
+    gap: 40px;
+  }
+
+  .empowering-item-title {
+    font-size: 24px;
+  }
+
+  .empowering-item-image {
+    height: 250px;
+  }
+
+  .empowering-item-right {
+    gap: 30px;
+  }
+
+  .empowering-item-description {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .empowering-button {
+    padding: 16px 40px;
+  }
+}

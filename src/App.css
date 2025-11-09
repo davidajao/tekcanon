@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  min-height: 100vh;
+  font-family: Inter, -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.main-content {
+  margin-top: 69px; /* Start after fixed header */
+  width: 100%;
+}
+
+.image-tilted {
+  transform: rotate(-15deg);
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-top: 60px;
+  }
+}

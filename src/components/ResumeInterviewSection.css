@@ -1,0 +1,126 @@
+.resume-interview-section {
+  width: 100%;
+  padding: 60px 144px;
+}
+
+.resume-interview-container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  max-width: 1168px;
+  margin: 0 auto;
+}
+
+.resume-interview-title {
+  color: #000;
+  font-family: Outfit, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+}
+
+.resume-interview-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 7px;
+}
+
+.resume-interview-description {
+  width: 540px;
+  color: #000;
+  font-family: Inter, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.resume-interview-image {
+  width: 528px;
+  height: 387px;
+  flex-shrink: 0;
+  object-fit: contain;
+  transform: rotate(15deg);
+}
+
+@media (max-width: 1024px) {
+  .resume-interview-section {
+    padding: 50px 40px;
+  }
+
+  .resume-interview-container {
+    gap: 50px;
+  }
+
+  .resume-interview-title {
+    font-size: 32px;
+  }
+
+  .resume-interview-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .resume-interview-image {
+    width: 450px;
+    height: 330px;
+  }
+
+  .resume-interview-description {
+    width: 100%;
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+@media (max-width: 768px) {
+  .resume-interview-section {
+    padding: 40px 25px;
+  }
+
+  .resume-interview-container {
+    gap: 40px;
+  }
+
+  .resume-interview-title {
+    font-size: 28px;
+  }
+
+  .resume-interview-image {
+    width: 350px;
+    height: 257px;
+  }
+
+  .resume-interview-description {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+  }
+}
+
+@media (max-width: 480px) {
+  .resume-interview-section {
+    padding: 30px 20px;
+  }
+
+  .resume-interview-container {
+    gap: 30px;
+  }
+
+  .resume-interview-title {
+    font-size: 24px;
+  }
+
+  .resume-interview-image {
+    width: 280px;
+    height: 206px;
+  }
+
+  .resume-interview-description {
+    font-size: 15px;
+    line-height: 24px;
+  }
+}
