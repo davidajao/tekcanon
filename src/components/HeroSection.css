@@ -109,17 +109,14 @@
 
 @media (max-width: 768px) {
   .hero-section-gradient {
-    padding: 60px 25px 80px 25px;
+    padding: 60px 25px;
     min-height: fit-content;
+    background: #4B726F;
+    border-radius: 0 0 80px 0;
   }
 
   .hero-background-svg {
-    display: block;
-    width: 100%;
-    height: auto;
-    min-height: 120%;
-    top: 0;
-    left: 0;
+    display: none;
   }
 
   .hero-text-content {
@@ -146,17 +143,14 @@
 
 @media (max-width: 480px) {
   .hero-section-gradient {
-    padding: 50px 20px 70px 20px;
+    padding: 50px 20px;
     min-height: fit-content;
+    background: #4B726F;
+    border-radius: 0 0 60px 0;
   }
 
   .hero-background-svg {
-    display: block;
-    width: 100%;
-    height: auto;
-    min-height: 120%;
-    top: 0;
-    left: 0;
+    display: none;
   }
 
   .hero-section-title {
