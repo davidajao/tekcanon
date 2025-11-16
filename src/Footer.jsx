@@ -1,4 +1,5 @@
 import React, { useState, useMemo, useEffect } from 'react';
+import { Link } from "react-router-dom";
 import './Footer.css';
 
 const Footer = () => {
@@ -96,14 +97,16 @@ const Footer = () => {
           <div className="footer-newsletter-content">
             <h2 className="footer-newsletter-title">Subscribe To Our Newsletter</h2>
             <p className="footer-newsletter-description">
-              Corem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus.
+              Stay ahead in your tech journey with weekly tips, insider advice, and career resources straight to your inbox. Be the first to know about upcoming events, mentorship opportunities, and early access to open roles from top tech companies.
             </p>
           </div>
 
           <div className="footer-newsletter-form">
+            <Link to="https://substack.com/@tekcanon" target="_blank">
             <button className="footer-newsletter-button" type="button">
               <span className="footer-newsletter-button-text">Sign Up</span>
             </button>
+            </Link>
           </div>
         </div>
       </section>
@@ -122,10 +125,11 @@ const Footer = () => {
               <div className="footer-column">
                 <h3 className="footer-column-title">Quick Links</h3>
                 <ul className="footer-links">
-                  <li><a href="#about">About us</a></li>
-                  <li><a href="#offer">What we Offer</a></li>
-                  <li><a href="#serve">Who we Serve</a></li>
-                  <li><a href="#resources">Our Resources</a></li>
+                  <li><Link to="/about">About us</Link></li>
+                  <li><Link to="/mentorship">Mentorship</Link></li>
+                  <li><Link to="/career-development">Career Development</Link></li>
+                  <li><Link to="/who-we-serve">Who we Serve</Link></li>
+                  <li><Link to="/courses">Our Resources</Link></li>
                 </ul>
               </div>
 
