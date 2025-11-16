@@ -8,11 +8,13 @@ import Mentorship from './pages/Mentorship';
 import Courses from './pages/Courses';
 import CareerDevelopment from './pages/CareerDevelopment';
 import Footer from './Footer';
+import ScrollToTop from './ScrollToTop';
 import './App.css';
 
 function App() {
   return (
     <Router basename="/tekcanon">
+      <ScrollToTop />
       <div className="app">
         <Header />
         <main className="main-content">
