@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import './Home.css';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -49,7 +50,7 @@ const Home = () => {
             <p className="hero-description">
               Gain the confidence, guidance, and real-world skills you need to land your dream role.
             </p>
-            <button className="hero-button">
+            <Link to="/courses" className="hero-button">
               <span className="hero-button-text">Start Learning</span>
               <svg 
                 className="hero-button-icon" 
@@ -67,7 +68,7 @@ const Home = () => {
                   strokeLinejoin="round"
                 />
               </svg>
-            </button>
+            </Link>
           </div>
         </div>
       </section>
@@ -131,12 +132,8 @@ const Home = () => {
           </div>
           <div className="mission-content">
             <p className="mission-text">
-              Corem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie,
-              dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem
-              sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit,
-              sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia
-              nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque
-              ante pulvinar.
+              TekCanon empowers students to land high-impact, high-paying roles in tech through education, exposure, and intentional career growth.<br/>
+              We believe talent is universal, but opportunity is not. TekCanon bridges that gap by equipping students with the skills, mentorship, and insights needed to thrive in the tech industry.
             </p>
           </div>
         </div>
@@ -155,7 +152,7 @@ const Home = () => {
           <div className="who-we-serve-header">
             <h2 className="who-we-serve-title">Who we Serve</h2>
             <p className="who-we-serve-description">
-              Lorem ipsum dolor sit amet consectetur. Accumsan cras commodo id nulla at quis faucibus. Lectus sagittis tortor quam augue. Molestie viverra egestas sit diam orci urna netus massa. Adipiscing at magna nisl libero egestas. Odio leo commodo in risus. Turpis adipiscing aenean quam ipsum fusce ipsum vulputate facilisi. Phasellus quis eu elit vitae. Mattis tempus egestas adipiscing nibh. Odio eget est volutpat facilisis volutpat. Porttitor malesuada netus amet turpis sed. Donec viverra mattis nisl tristique. Quis amet volutpat nullam risus convallis id nunc commodo dignissim. Lacinia eget sit ipsum nunc laoreet accumsan adipiscing. Nunc scelerisque facilisi nisl orci. Massa malesuada pretium at fusce a. Enim pharetra ante vehicula risus id vitae. Cursus maecenas ut rhoncus sollicitudin at elementum. Tortor semper tempor metus eros duis suscipit accumsan velit. Risus est semper sem id nisl parturient enim.
+              TekCanon serves students and early-career professionals—especially those from underrepresented backgrounds—who aspire to build meaningful, high-paying careers in technology. We support driven learners seeking guidance, mentorship, and access to the networks and knowledge that open doors to top opportunities in tech.
             </p>
           </div>
 
@@ -212,13 +209,14 @@ const Home = () => {
               <h3 className="audience-title">Underrepresented Communities</h3>
             </div>
           </div>
-
+          {/* Learn More Button
           <button className="learn-more-button">
             <span className="learn-more-text">Learn more</span>
             <svg className="learn-more-icon" width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M1.35693 11.6431L11.6426 1.35742M11.6426 1.35742H3.92836M11.6426 1.35742V9.07171" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </button>
+           */}
         </div>
       </section>
 
@@ -227,7 +225,8 @@ const Home = () => {
         <div className="start-journey-container">
           <h2 className="start-journey-title">Start Your Journey Today !</h2>
           <p className="start-journey-description">
-            Corem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar.
+            Your path to a high-impact career in tech starts here. Whether you’re learning to code, preparing for interviews, or exploring what’s possible, TekCanon gives you the tools, community, and mentorship to take the next step with confidence.
+            Join our programs, connect with industry mentors, and unlock opportunities that move you closer to the career you deserve.
           </p>
           <button className="explore-courses-button">
             <span className="explore-courses-text">Explore Courses</span>
@@ -246,6 +245,7 @@ const Home = () => {
           </h2>
 
           <div className="home-courses-grid">
+            <a href="https://www.youtube.com/watch?v=mbh_sBVRFmU" target='_blank' style={{ textDecoration: 'none', color: 'inherit' }}>
             <div className="home-course-card">
               <img
                 src="https://api.builder.io/api/v1/image/assets/TEMP/67b932ee0663c253168727cf094a91b9fe811b5d?width=590"
@@ -255,11 +255,13 @@ const Home = () => {
               <div className="home-course-content">
                 <h3 className="home-course-title">Before Resume</h3>
                 <p className="home-course-description">
-                  Lorem ipsum dolor sit amet consectetur. Pellentesque cursus pretium morbi enim nisl. Quam id cursus enim elementum.
+                  Tips and tricks you need to know before you put your resume together.
                 </p>
               </div>
             </div>
+            </a>
 
+            <a href="https://www.youtube.com/watch?v=qMvRgsQcv0M" target='_blank' style={{ textDecoration: 'none', color: 'inherit' }}>
             <div className="home-course-card">
               <img
                 src="https://api.builder.io/api/v1/image/assets/TEMP/c1b74fc9c686c21b1f28e97b34e1bae5e3905d64?width=592"
@@ -269,11 +271,13 @@ const Home = () => {
               <div className="home-course-content">
                 <h3 className="home-course-title">Your SWE Resume</h3>
                 <p className="home-course-description">
-                  Lorem ipsum dolor sit amet consectetur. Pellentesque cursus pretium morbi enim nisl. Quam id cursus enim elementum.
+                  How to structure your resume for a software engineering role
                 </p>
               </div>
             </div>
+            </a>
 
+            <a href="https://www.youtube.com/watch?v=WNQ1LyQlkpM" target='_blank' style={{ textDecoration: 'none', color: 'inherit' }}> 
             <div className="home-course-card">
               <img
                 src="https://api.builder.io/api/v1/image/assets/TEMP/297b461c4260052f25ea90987222f57fea9b0ff9?width=590"
@@ -283,18 +287,19 @@ const Home = () => {
               <div className="home-course-content">
                 <h3 className="home-course-title">The Interview</h3>
                 <p className="home-course-description">
-                  Lorem ipsum dolor sit amet consectetur. Pellentesque cursus pretium morbi enim nisl. Quam id cursus enim elementum.
+                  How to prepare for your software engineering interview
                 </p>
               </div>
             </div>
+            </a>
           </div>
 
-          <button className="view-more-button">
+          <Link to="/courses" className="view-more-button">
             <span className="view-more-text">View More</span>
             <svg className="view-more-icon" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M1.85693 12.1426L12.1426 1.85693M12.1426 1.85693H4.42836M12.1426 1.85693V9.57122" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
-          </button>
+          </Link>
         </div>
       </section>
 
@@ -310,14 +315,14 @@ const Home = () => {
             <div className="testimonial-card">
               <div className="testimonial-background"></div>
               <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/f490800a83cd8a5f598ed48462d8c94ae1ae9c18?width=420"
+                src={process.env.PUBLIC_URL + "/assets/j-review.jpeg"}
                 alt="Student testimonial"
                 className="testimonial-image left"
               />
               <div className="testimonial-background"></div>
               <div className="testimonial-content">
                 <p className="testimonial-text">
-                  Corem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus.
+                  "TekCanon's tips and teaching methods were a great summary of all I needed to know to secure my first internship at AWS in just my sophomore year of college.”
                 </p>
                 <svg className="testimonial-stars" width="88" height="18" viewBox="0 0 88 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M8.5 0L10.4084 6.21885H16.584L11.5878 10.0623L13.4962 16.2812L8.5 12.4377L3.50383 16.2812L5.41219 10.0623L0.416019 6.21885H6.59163L8.5 0Z" fill="#CBA135"/>
@@ -332,13 +337,13 @@ const Home = () => {
             <div className="testimonial-card reverse">
               <div className="testimonial-background"></div>
               <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/b88e92634e50d132af6071b74a434ef5d5085d92?width=420"
+                src={process.env.PUBLIC_URL + "/assets/f-review.jpg"}
                 alt="Student testimonial"
                 className="testimonial-image right"
               />
               <div className="testimonial-content">
                 <p className="testimonial-text">
-                  Corem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus.
+                  "TekCanon help in preparing for interviews was key for my preparation. His will to help, communication, technical advice and mock interviews were a key part in my development as a strong candidate for every Software Engineer interview. I would recommend him and his platform to anyone who wants to prepare for these types of interviews.”​
                 </p>
                 <svg className="testimonial-stars" width="88" height="18" viewBox="0 0 88 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M8.5 0L10.4084 6.21885H16.584L11.5878 10.0623L13.4962 16.2812L8.5 12.4377L3.50383 16.2812L5.41219 10.0623L0.416019 6.21885H6.59163L8.5 0Z" fill="#CBA135"/>
