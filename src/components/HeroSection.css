@@ -109,16 +109,17 @@
 
 @media (max-width: 768px) {
   .hero-section-gradient {
-    padding: 60px 25px;
-    min-height: 550px;
+    padding: 60px 25px 80px 25px;
+    min-height: fit-content;
   }
 
   .hero-background-svg {
     display: block;
     width: 100%;
-    height: 100%;
-    min-width: 100%;
-    min-height: 100%;
+    height: auto;
+    min-height: 120%;
+    top: 0;
+    left: 0;
   }
 
   .hero-text-content {
@@ -145,16 +146,17 @@
 
 @media (max-width: 480px) {
   .hero-section-gradient {
-    padding: 50px 20px;
-    min-height: 500px;
+    padding: 50px 20px 70px 20px;
+    min-height: fit-content;
   }
 
   .hero-background-svg {
     display: block;
     width: 100%;
-    height: 100%;
-    min-width: 100%;
-    min-height: 100%;
+    height: auto;
+    min-height: 120%;
+    top: 0;
+    left: 0;
   }
 
   .hero-section-title {
