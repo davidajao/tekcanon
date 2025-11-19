@@ -2,7 +2,7 @@
   "name": "tekcanon-app",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://davidajao.github.io/tekcanon",
+  "homepage": "https://tekcanon.com",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
