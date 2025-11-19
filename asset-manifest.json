@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/tekcanon/static/css/main.109c35a4.css",
-    "main.js": "/tekcanon/static/js/main.93a3de64.js",
-    "index.html": "/tekcanon/index.html",
-    "main.109c35a4.css.map": "/tekcanon/static/css/main.109c35a4.css.map",
-    "main.93a3de64.js.map": "/tekcanon/static/js/main.93a3de64.js.map"
+    "main.css": "/static/css/main.109c35a4.css",
+    "main.js": "/static/js/main.e782f4a5.js",
+    "index.html": "/index.html",
+    "main.109c35a4.css.map": "/static/css/main.109c35a4.css.map",
+    "main.e782f4a5.js.map": "/static/js/main.e782f4a5.js.map"
   },
   "entrypoints": [
     "static/css/main.109c35a4.css",
-    "static/js/main.93a3de64.js"
+    "static/js/main.e782f4a5.js"
   ]
 }
