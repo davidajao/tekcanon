@@ -8,7 +8,7 @@ const ResumeInterviewSection = () => {
         <h2 className="resume-interview-title">Resume/Interview Prep Support</h2>
         <div className="resume-interview-content">
           <p className="resume-interview-description">
-            Corem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+            Get personalized feedback on your resume and sharpen your interview skills with practical tips, mock questions, and proven strategies to help you stand out to top employers.
           </p>
           <img
             className="resume-interview-image"

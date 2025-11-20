@@ -13,7 +13,7 @@ const SessionsSection = () => {
             alt="Mentorship session"
           />
           <p className="sessions-description">
-            Corem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+            Connect directly with experienced engineers and tech professionals who can answer your questions, share real-world insights, and guide you through each stage of your career journey.
           </p>
         </div>
       </div>

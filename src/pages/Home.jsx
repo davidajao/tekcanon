@@ -6,30 +6,6 @@ const Home = () => {
   const [openIndex, setOpenIndex] = useState(null);
   const [searchValue, setSearchValue] = useState('');
 
-  const faqs = [
-    {
-      question: 'Who is this for ?',
-      answer:
-        'Our programs are designed for students, career switchers, and job seekers in tech — anyone looking to build skills and launch their career.'
-    },
-    {
-      question: 'How do I access my course',
-      answer:
-        'Once enrolled, access your course from the dashboard under "My Courses". All course materials and progress are saved to your account.'
-    },
-    {
-      question: 'Are there prerequisites or language requirements?',
-      answer:
-        'Most courses require only a commitment to learn; some advanced tracks assume basic programming knowledge. English proficiency is recommended for most content.'
-    }
-  ];
-
-  const filteredFaqs = useMemo(() => {
-    const q = searchValue.trim().toLowerCase();
-    if (!q) return faqs;
-    return faqs.filter((f) => (f.question + ' ' + f.answer).toLowerCase().includes(q));
-  }, [searchValue, faqs]);
-
   useEffect(() => {
     // close any open item when the search changes to avoid mismatched indices
     setOpenIndex(null);
@@ -228,12 +204,14 @@ const Home = () => {
             Your path to a high-impact career in tech starts here. Whether you’re learning to code, preparing for interviews, or exploring what’s possible, TekCanon gives you the tools, community, and mentorship to take the next step with confidence.
             Join our programs, connect with industry mentors, and unlock opportunities that move you closer to the career you deserve.
           </p>
+          <Link to="/courses">
           <button className="explore-courses-button">
             <span className="explore-courses-text">Explore Courses</span>
             <svg className="explore-courses-icon" width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M1.35693 12.1431L11.6426 1.85742M11.6426 1.85742H3.92836M11.6426 1.85742V9.57171" stroke="#0D5036" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
             </svg>
           </button>
+          </Link>
         </div>
       </section>
 

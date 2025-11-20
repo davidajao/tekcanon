@@ -8,7 +8,7 @@ const Courses = () => {
     <div className="courses">
       <HeroSection
         title="Master Technical Interviews with Expert-Led Courses"
-        subtitle="Learn from industry professionals through comprehensive courses designed to take you from beginner to job-ready in the most in-demand technologies."
+        subtitle="Learn from industry professionals through comprehensive courses designed to take you from beginner to interview-ready for software engineering roles."
         showButton={false}
         buttonText="Explore Courses"
       />

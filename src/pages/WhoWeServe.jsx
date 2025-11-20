@@ -1,5 +1,5 @@
-import React from 'react';
-import './WhoWeServe.css';
+import React from "react";
+import "./WhoWeServe.css";
 
 const WhoWeServe = () => {
   return (
@@ -12,7 +12,15 @@ const WhoWeServe = () => {
         <div className="who-we-serve-container">
           <h1 className="who-we-serve-title">Who We Serve</h1>
           <p className="who-we-serve-description">
-            Lorem ipsum dolor sit amet consectetur. Lacus in viverra suspendisse pulvinar eros nisl nibh habitant euismod. Enim feugiat nunc sit faucibus consectetur platea a ornare. Duis viverra enim ipsum aenean consequat malesuada. Sed adipiscing eget elit mollis vitae elementum donec ut. Molestie eros amet pellentesque orci vitae in viverra amet. Enim sit leo nunc nisl consequat ipsum. Eu nulla id tortor diam molestie lacus. Viverra vulputate bibendum sit fusce etiam sagittis urna. Viverra fermentum in morbi bibendum facilisi aliquam augue quisque eu. Nisl tristique tortor vulputate velit at aliquet scelerisque sed id. Varius at quis viverra vitae consequat dictum et viverra feugiat. Nunc pharetra netus cursus faucibus nulla mattis nunc. Dui orci pulvinar est sit. Tortor et vitae eu aliquet a nec nisl sagittis. Tellus est consectetur amet orci sit. Turpis elementum adipiscing in neque. Elementum lorem cum id risus a. Nec nibh sed diam dolor at vestibulum in sit a. Id nibh mattis lectus consequat nunc purus nunc vitae.
+            TekCanon serves students and early-career professionals who are
+            driven to build high-impact careers in tech but may lack access to
+            guidance, mentorship, or strong industry networks. We focus on
+            supporting individuals from non-target schools, underrepresented
+            backgrounds, and anyone who feels overlooked in traditional
+            recruiting pipelines. Our community is built for learners who want
+            clear direction, practical interview preparation, and a supportive
+            environment that helps them break into top tech roles with
+            confidence.
           </p>
         </div>
       </section>
@@ -22,7 +30,16 @@ const WhoWeServe = () => {
           <div className="our-story-content">
             <h2 className="our-story-title">Our Story</h2>
             <p className="our-story-description">
-              Corem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+              TekCanon was born from firsthand experience. Coming from a
+              non-target university, I had to navigate the tech recruiting
+              process with limited support. After experimenting with different
+              strategies, I discovered what truly works — methods that helped me
+              land a software engineering role at Microsoft before graduation. I
+              shared these techniques with friends and family, who went on to
+              secure roles at companies like AWS, Salesforce, and Microsoft.
+              Their success inspired me to create TekCanon: a platform dedicated
+              to sharing proven strategies, mentorship, and opportunities so
+              more students can access life-changing careers in tech.
             </p>
           </div>
           <img
