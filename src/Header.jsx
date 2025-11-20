@@ -317,7 +317,7 @@ const Header = () => {
           </Link>
         </nav>
 
-          <Link to="/courses">
+          <Link to="/courses" onClick={toggleMobileMenu}>
               <button className="mobile-get-started-button">
                 <span className="mobile-button-text">Get Started</span>
               </button>
