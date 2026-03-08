@@ -155,6 +155,9 @@ const Footer = () => {
           <div className="footer-divider"></div>
 
           <div className="footer-bottom">
+            <p className="footer-tax-notice">
+              TekCanon is a not-for-profit corporation recognized by IRS as a tax-exempt public charity under Section 501(c)(3) of the Internal Revenue Code (Federal Tax ID: 41-3448564). Contributions to TekCanon are tax-deductible to the fullest extent of the law.
+            </p>
             <p className="footer-copyright">Copyright 2025 TekCanon</p>
           </div>
         </div>

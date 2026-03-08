@@ -433,7 +433,7 @@
 
 .footer-bottom {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   width: 100%;
 }
 
@@ -444,6 +444,15 @@
   font-weight: 400;
   line-height: normal;
   margin: 0;
+}
+
+.footer-tax-notice {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Inter, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 18px;
+  margin: 0 0 12px 0;
 }
 
 /* Footer Newsletter - Tablet */
