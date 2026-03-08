@@ -20,7 +20,7 @@
   width: 100%;
   max-width: 1171px;
   align-items: center;
-  gap: 119px;
+  justify-content: space-between;
   flex-shrink: 0;
   position: relative;
   margin: 0 auto;
@@ -36,10 +36,12 @@
 
 .navigation-options {
   display: flex;
+  flex: 1;
   justify-content: center;
   align-items: center;
   gap: 50px;
   position: relative;
+  min-width: 0;
 }
 
 .nav-links {
@@ -129,11 +131,6 @@
 
 .get-started-button-container {
   display: flex;
-  width: 139px;
-  height: 46px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 10px;
   flex-shrink: 0;
   position: relative;
 }
@@ -175,21 +172,12 @@
   .header-frame {
     width: 100%;
     padding: 5px 20px;
-    position: relative;
   }
-  
-  .header {
-    width: 100%;
-    gap: 50px;
-    position: relative;
-    left: 0;
-    top: 0;
-  }
-  
+
   .nav-links {
     gap: 20px;
   }
-  
+
   .nav-item {
     padding: 10px 5px;
   }
@@ -414,9 +402,12 @@
   .tekcanon-logo {
     width: 140px;
     height: auto;
+    max-height: 100%;
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
+    top: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: contain;
   }
 
   .mobile-menu-toggle {

@@ -421,8 +421,8 @@
   box-sizing: border-box;
   border-radius: 0 80px 0px 80px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-  box-shadow: 0 0 0 80px lightgray;
-  clip-path: inset(0 0 -80px 0);
+  box-shadow: -80px 80px 0 0 lightgray;
+  clip-path: inset(0 0 -80px -80px round 0 80px 0 80px);
 }
 
 /* Mission overlap positioning */
