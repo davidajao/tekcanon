@@ -140,10 +140,10 @@ const Header = () => {
           </svg>
         </button>
 
-        <div className="get-started-button-container">
-          <Link to="/courses">
-            <button className="get-started-button">
-              <span className="button-text">Get Started</span>
+        <div className="donate-now-container">
+          <Link to="https://funraise.org/give/Tekcanon/e62f1443-ea9a-44dd-b69c-0fd9b4740ebc/">
+            <button className="donate-now">
+              <span className="button-text">Donate Now</span>
             </button>
           </Link>
         </div>
@@ -317,13 +317,12 @@ const Header = () => {
           </Link>
         </nav>
 
-          <Link to="/courses" onClick={toggleMobileMenu}>
-              <button className="mobile-get-started-button">
-                <span className="mobile-button-text">Get Started</span>
+          <Link to="https://funraise.org/give/Tekcanon/e62f1443-ea9a-44dd-b69c-0fd9b4740ebc/" onClick={toggleMobileMenu}>
+              <button className="mobile-donate-now">
+                <span className="mobile-button-text">Donate Now</span>
               </button>
           </Link>
-      </div>
-    </div>
+      </div>    </div>
   );
 };
 
