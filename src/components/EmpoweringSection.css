@@ -102,6 +102,7 @@
   background: #0D5036;
   cursor: pointer;
   transition: opacity 0.3s ease;
+  text-decoration: none;
 }
 
 .empowering-button:hover {

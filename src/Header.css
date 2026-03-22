@@ -129,13 +129,17 @@
 }
 
 
-.get-started-button-container {
+.donate-now-container {
   display: flex;
   flex-shrink: 0;
   position: relative;
 }
 
-.get-started-button {
+.donate-now-container a {
+  text-decoration: none;
+}
+
+.donate-now {
   display: flex;
   width: 139px;
   padding: 15px 40px;
@@ -148,9 +152,10 @@
   border: none;
   cursor: pointer;
   transition: background-color 0.2s ease;
+  text-decoration: none;
 }
 
-.get-started-button:hover {
+.donate-now:hover {
   background: #0A3D2A;
 }
 
@@ -356,7 +361,11 @@
   cursor: pointer;
 }
 
-.mobile-get-started-button {
+.mobile-menu > a {
+  text-decoration: none;
+}
+
+.mobile-donate-now {
   display: flex;
   height: 42px;
   padding: 9.712px 25.899px;
@@ -370,9 +379,10 @@
   margin: 40px 25px 25px 25px;
   width: calc(100% - 50px);
   transition: background-color 0.2s ease;
+  text-decoration: none;
 }
 
-.mobile-get-started-button:hover {
+.mobile-donate-now:hover {
   background: #0A3D2A;
 }
 
@@ -432,7 +442,7 @@
   }
 
   /* Hide desktop Get Started button on mobile; use mobile drawer button instead */
-  .get-started-button-container {
+  .donate-now-container {
     display: none;
   }
 }
